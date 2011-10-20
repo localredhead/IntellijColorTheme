@@ -1,11 +1,8 @@
-Here is my intellij color theme.  It is a work in progress, but I have been tuning this over the period of 2 years.
-.
-.
-To use the color scheme, go to File > Import Settings > Find the .jar > Choose Color Scheme and click next.  Enjoy.
-.
-.
-.
-Here are some vm args to make things run smoother -XX:MaxPermSize=150m -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:+CMSIncrementalPacing -XX:+AggressiveOpt -XX:+UseBiasedLocking -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -XX:+DoEscapeAnalysis
-  
+# Here is my intellij color theme.  I have been tuning this for about 2 years.
 
-This file was modified by IntelliJ IDEA 10.5.2 for binding GitHub repository
+* I wanted to provide a better textmate-like color scheme that was pleasing to the eye 
+* This should not strain the eyes after extended periods.  The key hear is to have the syntax stand out but stick out.  No neon colors.
+* To use the color scheme, go to File > Import Settings > Find the .jar > Choose Color Scheme and click next.  Enjoy.
+* Here are some vm args to make things run smoother 
+  * -XX:MaxPermSize=150m -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:+CMSIncrementalPacing -XX:+AggressiveOpt -XX:+UseBiasedLocking -XX:+CMSPermGenSweepingEnabled -XX:+CMSClassUnloadingEnabled -XX:+DoEscapeAnalysis
+  
